@@ -12,7 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/billing")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://ec2-13-203-67-191.ap-south-1.compute.amazonaws.com:3000")
 public class BillingController {
 
     @Autowired
